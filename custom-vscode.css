@@ -23,8 +23,8 @@
 .monaco-list.list_id_1 .monaco-list-row.selected {
 	background-color: #4f5971 !important;
 	opacity: 1 !important;
-	border-top: 1px #727b90 solid;
-	border-bottom: 1px #727b90 solid;
+	/* border-top: 1px #727b90 solid;
+	border-bottom: 1px #727b90 solid; */
 }
 
 /* List item label name */
@@ -39,13 +39,13 @@
 }
 
 /* File Explorer Item Label */
-/* .monaco-tree .monaco-tree-row .label-name,
+.monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-	font-family: "CaskaydiaCove Nerd Font", monospace !important;
+	font-family: "Geist", sans-serif !important;
 	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #fff !important;
-} */
+	font-weight: 500 !important;
+	/* color: #fff !important; */
+}
 
 /* Sidebar top shadow */
 .monaco-scrollable-element > .shadow.top {
@@ -107,8 +107,8 @@
 	> .window-title
 	> .command-center
 	.action-item.command-center-center {
-	border: none !important;
-	background: transparent !important;
+	/* border: none !important;
+	background: transparent !important; */
 }
 
 /* Project Title */
@@ -120,11 +120,14 @@
 
 /* Window Title */
 .window-title {
+	font-family: "Geist", sans-serif !important;
+	font-size: 14px !important;
+	font-weight: 500 !important;
 }
 
 /* Search Label */
 .search-label {
-	font-family: "CaskaydiaCove Nerd Font" !important;
+	font-family: "Geist" !important;
 	font-size: 14px !important;
 	color: #fff;
 	display: block;
@@ -152,11 +155,11 @@
 .quick-input-widget {
 	transform: translateY(-50%) !important;
 	top: 50% !important;
-	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+	/* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
 	padding: 10px 10px 18px 10px !important;
 	background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
 	backdrop-filter: blur(3px) !important;
-	border-radius: 20px !important;
+	border-radius: 20px !important; */
 }
 
 /* Remove background for lists */
@@ -187,11 +190,11 @@
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
-	border-radius: 12px !important;
-	padding: 8px !important;
+	/* border-radius: 12px !important;
 	border: none !important;
-	background-color: rgba(34, 34, 34, 0.4) !important;
-	font-family: "CaskaydiaCove Nerd Font" !important;
+	background-color: rgba(34, 34, 34, 0.4) !important; */
+	padding: 8px !important;
+	font-family: "Geist" !important;
 	font-size: 14px !important;
 	margin-bottom: 16px !important;
 }

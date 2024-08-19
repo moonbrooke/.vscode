@@ -1,0 +1,106 @@
+{
+	"workbench.startupEditor": "none",
+	"sync.autoUpload": true,
+	"sync.gist": "75703c013f1ef7c0ccbec9d7a2646d8f",
+	"editor.fontFamily": "CaskaydiaCove Nerd Font",
+	"terminal.integrated.fontFamily": "FiraMono Nerd Font",
+	"editor.fontLigatures": true,
+	"editor.quickSuggestions": {
+		"comments": true,
+		"strings": "on"
+	},
+	"prettier.useTabs": true,
+	"workbench.iconTheme": "catppuccin noctis icons",
+	"window.zoomLevel": 0,
+	"files.associations": {
+		"*.html": "html",
+		"*.mcmeta": "json",
+		"*.js": "javascriptreact"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"editor.cursorWidth": 3,
+	"editor.cursorBlinking": "smooth",
+	"editor.fontSize": 16,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"blade.format.enable": true,
+	"[blade]": {
+		"editor.autoClosingBrackets": "always",
+		"editor.defaultFormatter": "onecentlin.laravel-blade"
+	},
+	"terminal.integrated.enablePersistentSessions": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Andromeda Bordered",
+	"extensions.autoCheckUpdates": false,
+	"editor.minimap.autohide": true,
+	"editor.minimap.renderCharacters": false,
+	"tailwindCSS.experimental.configFile": null,
+	"tailwindCSS.emmetCompletions": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"window.commandCenter": false,
+	"security.allowedUNCHosts": [
+		"wsl.localhost"
+	],
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+	"editor.codeActionsOnSave": {},
+	"tailwindCSS.includeLanguages": {
+		"Svelte": "html"
+	},
+	"workbench.colorCustomizations": {},
+	"editor.lineHeight": 2,
+	"editor.stickyScroll.enabled": false,
+	"window.dialogStyle": "custom",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"explorer.compactFolders": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.matchBrackets": "never",
+	"editor.guides.highlightActiveBracketPair": false,
+	"editor.folding": false,
+	"terminal.integrated.stickyScroll.enabled": true,
+	"editor.wordWrap": "on",
+	"editor.scrollbar.horizontalScrollbarSize": 0,
+	"editor.scrollbar.horizontal": "hidden",
+	"telemetry.telemetryLevel": "off",
+	"catppuccin-noctis-icons.hidesExplorerArrows": false,
+	"workbench.activityBar.location": "hidden",
+	"breadcrumbs.enabled": false,
+	"editor.renderWhitespace": "all",
+	"editor.renderLineHighlight": "gutter",
+	"workbench.layoutControl.type": "menu",
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 1,
+	"workbench.editor.limit.perEditorGroup": true,
+	"workbench.editor.showTabs": "none",
+	"files.autoSave": "onWindowChange",
+	"explorer.openEditors.visible": 1,
+	"workbench.statusBar.visible": false,
+	"workbench.layoutControl.enabled": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.sideBar.location": "right",
+	"vscode_custom_css.imports": [
+		"file:///C:/vscode/custom-vscode.css",
+		"file:///C:/vscode/custom-script.js"
+	]
+}
