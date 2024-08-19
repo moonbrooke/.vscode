@@ -85,7 +85,6 @@
 	"telemetry.telemetryLevel": "off",
 	"catppuccin-noctis-icons.hidesExplorerArrows": false,
 	"workbench.activityBar.location": "hidden",
-	"breadcrumbs.enabled": false,
 	"editor.renderWhitespace": "all",
 	"editor.renderLineHighlight": "gutter",
 	"workbench.layoutControl.type": "menu",
@@ -102,5 +101,9 @@
 	"vscode_custom_css.imports": [
 		"file:///C:/vscode/custom-vscode.css",
 		"file:///C:/vscode/custom-script.js"
-	]
+	],
+	"window.titleSeparator": " / ",
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+	"breadcrumbs.enabled": false,
+	"workbench.tips.enabled": false
 }
