@@ -49,7 +49,7 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"editor.formatOnSave": true,
-	"workbench.colorTheme": "Andromeda Bordered",
+	"workbench.colorTheme": "Andromeda",
 	"extensions.autoCheckUpdates": false,
 	"editor.minimap.autohide": true,
 	"editor.minimap.renderCharacters": false,
@@ -93,7 +93,6 @@
 	"files.autoSave": "onWindowChange",
 	"explorer.openEditors.visible": 1,
 	"workbench.layoutControl.enabled": false,
-	"window.menuBarVisibility": "toggle",
 	"vscode_custom_css.imports": [
 		"file:///C:/vscode/custom-vscode.css"
 		// "file:///C:/vscode/custom-script.js"
@@ -105,5 +104,7 @@
 	"workbench.sideBar.location": "right",
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"window.menuBarVisibility": "compact",
+	"workbench.statusBar.visible": false
 }

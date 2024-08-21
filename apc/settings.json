@@ -1,0 +1,174 @@
+{
+	"workbench.startupEditor": "none",
+	"editor.fontFamily": "CaskaydiaCove Nerd Font",
+	"terminal.integrated.fontFamily": "FiraMono Nerd Font",
+	"editor.fontLigatures": true,
+	"editor.quickSuggestions": {
+		"comments": true,
+		"strings": "on"
+	},
+	"prettier.useTabs": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.tree.renderIndentGuides": "none",
+	"window.zoomLevel": 0,
+	"files.associations": {
+		"*.html": "html",
+		"*.mcmeta": "json",
+		"*.js": "javascriptreact"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"editor.cursorWidth": 3,
+	"editor.cursorBlinking": "smooth",
+	"editor.fontSize": 16,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"blade.format.enable": true,
+	"[blade]": {
+		"editor.autoClosingBrackets": "always",
+		"editor.defaultFormatter": "onecentlin.laravel-blade"
+	},
+	"terminal.integrated.enablePersistentSessions": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Tokyo Night Storm",
+	"extensions.autoCheckUpdates": false,
+	"editor.minimap.autohide": true,
+	"editor.minimap.renderCharacters": false,
+	"tailwindCSS.experimental.configFile": null,
+	"tailwindCSS.emmetCompletions": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"window.commandCenter": false,
+	"security.allowedUNCHosts": ["wsl.localhost"],
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+	"editor.codeActionsOnSave": {},
+	"tailwindCSS.includeLanguages": {
+		"Svelte": "html"
+	},
+	"workbench.colorCustomizations": {},
+	"editor.lineHeight": 2,
+	"editor.stickyScroll.enabled": false,
+	"window.dialogStyle": "custom",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"explorer.compactFolders": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.matchBrackets": false,
+	"editor.guides.highlightActiveBracketPair": false,
+	"editor.folding": false,
+	"terminal.integrated.stickyScroll.enabled": true,
+	"editor.wordWrap": "on",
+	"editor.scrollbar.horizontalScrollbarSize": 0,
+	"editor.scrollbar.horizontal": "hidden",
+	"telemetry.telemetryLevel": "off",
+	"catppuccin-noctis-icons.hidesExplorerArrows": false,
+	"workbench.activityBar.location": "hidden",
+	"editor.renderLineHighlight": "none",
+	"workbench.layoutControl.type": "menu",
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 1,
+	"workbench.editor.limit.perEditorGroup": true,
+	"workbench.editor.showTabs": "single",
+	"files.autoSave": "onWindowChange",
+	"explorer.openEditors.visible": 1,
+	"workbench.layoutControl.enabled": false,
+	"window.titleSeparator": " / ",
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+	"breadcrumbs.enabled": false,
+	"workbench.tips.enabled": false,
+	"workbench.sideBar.location": "right",
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.menuBarVisibility": "compact",
+	"workbench.statusBar.visible": false,
+	"editor.hover.enabled": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"explorer.confirmDelete": false,
+	"git.decorations.enabled": false,
+	"scm.diffDecorations": "none",
+	"extensions.ignoreRecommendations": true,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"window.titleBarStyle": "native",
+	"apc.electron": {
+		"titleBarStyle": "hidden",
+		"opacity": 1
+	},
+	"apc.font.family": "Geist",
+	"update.mode": "manual",
+	"apc.header": {
+		"height": 40
+	},
+	"apc.sidebar.titlebar": {
+		"height": 40,
+		"fontSize": 14
+	},
+	"apc.activityBar": {
+		"position": "bottom",
+		"size": 30,
+		"itemSize": 30,
+		"itemMargin": 10
+	},
+	"apc.listRow": {
+		"lists": [
+			"customview-tree",
+			"results",
+			"open-editors",
+			"explorer-folders-view",
+			"outline-tree",
+			"scm-view",
+			"debug-view-content",
+			"debug-breakpoints",
+			"tree",
+			"quick-input-list"
+		],
+		"height": 30,
+		"fontSize": 14
+	},
+	"apc.stylesheet": {
+		".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+		".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+		".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+		".monaco-list.list_id_2:focus .monaco-list-row.focused.selected": "outline: none !important",
+		".sidebar": "border: none !important",
+		".quick-input-list-row div": "display: flex !important; align-items: center !important",
+		".monaco-workbench .part>.content": "font-size: 14px !important",
+		".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a": "font-size: 14px !important",
+		".monaco-workbench [tabindex='0']:focus": "outline-width: 0px !important",
+		".monaco-list.list_id_6 .monaco-list-row.focused.selected": "outline: none !important",
+		".monaco-workbench": "--vscode-editor-background: #1f2334 !important; --vscode-editorGutter-background: #1f2334 !important; --title-border-bottom-color: #1f2333 !important",
+		".monaco-scrollable-element > .shadow.top": "display: none !important",
+		".monaco-editor .scroll-decoration": "display: none !important",
+		".custom-sidebar-titlebar .monaco-workbench .auxiliarybar>div.composite.title, .custom-sidebar-titlebar .monaco-workbench .auxiliarybar>div.composite.title>div.title-actions, .custom-sidebar-titlebar .monaco-workbench .sidebar>div.composite.title, .custom-sidebar-titlebar .monaco-workbench .sidebar>div.composite.title>div.title-actions": "height: 40px !important",
+		".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #1f2334 !important",
+		".monaco-workbench .part.panel.bottom .composite.title": "border: none !important",
+		".terminal-sticky-scroll": "border-bottom: 0px !important; box-shadow: none !important"
+	},
+	"animations.Install-Method": "Apc Customize UI++",
+	"apc.imports": [
+		"file:///c:/Users/user/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+	],
+	"animations.Default-Duration": 150,
+	"animations.Command-Palette": "Slide"
+}
