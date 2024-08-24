@@ -1,7 +1,5 @@
 {
 	"workbench.startupEditor": "none",
-	"sync.autoUpload": true,
-	"sync.gist": "75703c013f1ef7c0ccbec9d7a2646d8f",
 	"editor.fontFamily": "CaskaydiaCove Nerd Font",
 	"terminal.integrated.fontFamily": "FiraMono Nerd Font",
 	"editor.fontLigatures": true,
@@ -10,7 +8,8 @@
 		"strings": "on"
 	},
 	"prettier.useTabs": true,
-	"workbench.iconTheme": "catppuccin noctis icons",
+	"workbench.iconTheme": "symbols",
+	"workbench.tree.renderIndentGuides": "none",
 	"window.zoomLevel": 0,
 	"files.associations": {
 		"*.html": "html",
@@ -29,10 +28,6 @@
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"svelte.enable-ts-plugin": true,
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
 		"editor.formatOnSave": true
@@ -40,16 +35,11 @@
 	"[css]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
 	},
-	"blade.format.enable": true,
-	"[blade]": {
-		"editor.autoClosingBrackets": "always",
-		"editor.defaultFormatter": "onecentlin.laravel-blade"
-	},
 	"terminal.integrated.enablePersistentSessions": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"editor.formatOnSave": true,
-	"workbench.colorTheme": "Andromeda",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"extensions.autoCheckUpdates": false,
 	"editor.minimap.autohide": true,
 	"editor.minimap.renderCharacters": false,
@@ -60,7 +50,6 @@
 	},
 	"window.commandCenter": false,
 	"security.allowedUNCHosts": ["wsl.localhost"],
-	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
 	"editor.codeActionsOnSave": {},
 	"tailwindCSS.includeLanguages": {
 		"Svelte": "html"
@@ -73,7 +62,7 @@
 	"editor.scrollbar.verticalScrollbarSize": 0,
 	"explorer.compactFolders": false,
 	"editor.bracketPairColorization.enabled": false,
-	"editor.matchBrackets": false,
+	"editor.matchBrackets": "never",
 	"editor.guides.highlightActiveBracketPair": false,
 	"editor.folding": false,
 	"terminal.integrated.stickyScroll.enabled": true,
@@ -81,24 +70,19 @@
 	"editor.scrollbar.horizontalScrollbarSize": 0,
 	"editor.scrollbar.horizontal": "hidden",
 	"telemetry.telemetryLevel": "off",
-	"catppuccin-noctis-icons.hidesExplorerArrows": false,
 	"workbench.activityBar.location": "hidden",
-	"editor.renderWhitespace": "all",
-	"editor.renderLineHighlight": "gutter",
+	"editor.renderLineHighlight": "none",
 	"workbench.layoutControl.type": "menu",
 	"workbench.editor.limit.enabled": true,
-	"workbench.editor.limit.value": 1,
+	"workbench.editor.limit.value": 5,
 	"workbench.editor.limit.perEditorGroup": true,
-	"workbench.editor.showTabs": "none",
+	"workbench.editor.showTabs": "single",
 	"files.autoSave": "onWindowChange",
 	"explorer.openEditors.visible": 1,
 	"workbench.layoutControl.enabled": false,
-	"vscode_custom_css.imports": [
-		"file:///C:/vscode/custom-vscode.css"
-		// "file:///C:/vscode/custom-script.js"
-	],
 	"window.titleSeparator": " / ",
-	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+	// "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+	"window.title": "farpras@PC / ${rootName}",
 	"breadcrumbs.enabled": false,
 	"workbench.tips.enabled": false,
 	"workbench.sideBar.location": "right",
@@ -106,5 +90,19 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"window.menuBarVisibility": "compact",
-	"workbench.statusBar.visible": false
+	"workbench.statusBar.visible": false,
+	"editor.hover.enabled": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"explorer.confirmDelete": false,
+	"git.decorations.enabled": false,
+	"scm.diffDecorations": "none",
+	"extensions.ignoreRecommendations": true,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"window.titleBarStyle": "custom",
+	"update.mode": "none",
+	"symbols.hidesExplorerArrows": false,
+	"vscode_custom_css.imports": [
+		"file:///C:/vscode/custom-css-js/custom-style.css"
+	]
 }
