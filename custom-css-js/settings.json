@@ -102,7 +102,8 @@
 	"window.titleBarStyle": "custom",
 	"update.mode": "none",
 	"symbols.hidesExplorerArrows": false,
+	"workbench.tree.enableStickyScroll": false,
 	"vscode_custom_css.imports": [
-		"file:///C:/vscode/custom-css-js/custom-style.css"
+		"file:///C:/vscode/custom-css-js/custom-style-catppuccin-mocha.css"
 	]
 }

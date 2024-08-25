@@ -152,6 +152,14 @@
     background: #1e1e2e !important
 }
 
+.monaco-list.list_id_2 .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-container-shadow {
+    visibility: hidden !important;
+}
+
+.monaco-list.list_id_2 .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-row {
+    background: #1e1e2e !important
+}
+
 .monaco-pane-view .pane>.pane-header {
     background: #1e1e2e !important
 }
