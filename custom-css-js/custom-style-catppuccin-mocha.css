@@ -96,6 +96,10 @@
     background: #1e1e2e !important
 }
 
+.monaco-list.list_id_4 .monaco-list-rows {
+    background: #1e1e2e !important
+}
+
 .monaco-list.list_id_5 .monaco-list-rows {
     background: #1e1e2e !important
 }
@@ -169,7 +173,7 @@
 }
 
 .xterm-decoration-overview-ruler {
-    visibility: hidden
+    visibility: hidden !important
 }
 
 .monaco-workbench .pane-body.integrated-terminal .split-view-view:last-child .tabs-container,
@@ -221,11 +225,11 @@
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container {
-    background-color: #1e1e2e;
+    background-color: #1e1e2e !important;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab {
-    background-color: #1e1e2e;
+    background-color: #1e1e2e !important;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab:not(.active) {

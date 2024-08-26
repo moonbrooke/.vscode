@@ -41,7 +41,6 @@
 	"editor.formatOnSave": true,
 	"workbench.colorTheme": "Catppuccin Mocha",
 	"extensions.autoCheckUpdates": false,
-	"editor.minimap.autohide": true,
 	"editor.minimap.renderCharacters": false,
 	"tailwindCSS.experimental.configFile": null,
 	"tailwindCSS.emmetCompletions": true,
@@ -76,13 +75,13 @@
 	"workbench.editor.limit.enabled": true,
 	"workbench.editor.limit.value": 5,
 	"workbench.editor.limit.perEditorGroup": true,
-	"workbench.editor.showTabs": "single",
+	"workbench.editor.showTabs": "none",
 	"files.autoSave": "onWindowChange",
 	"explorer.openEditors.visible": 1,
 	"workbench.layoutControl.enabled": false,
 	"window.titleSeparator": " / ",
 	// "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
-	"window.title": "farpras@PC / ${rootName}",
+	"window.title": "${activeEditorShort} / ${rootName}",
 	"breadcrumbs.enabled": false,
 	"workbench.tips.enabled": false,
 	"workbench.sideBar.location": "right",
@@ -105,5 +104,6 @@
 	"workbench.tree.enableStickyScroll": false,
 	"vscode_custom_css.imports": [
 		"file:///C:/vscode/custom-css-js/custom-style-catppuccin-mocha.css"
-	]
+	],
+	"editor.minimap.autohide": true
 }
